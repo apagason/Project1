@@ -88,9 +88,3 @@ a:link {
    .portfolio-item .portfolio-overlay {
     transition: all 0.4s ease;
    }
-
-/* --footer-- */
-footer .brand{
-    font-family: var(--lg-font);
-    letter-spacing: 2px;
-}
