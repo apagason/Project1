@@ -7,15 +7,7 @@
     .login{
         border-bottom: none;
     }
-
-/* .login {
-    background: var(--background-mobile);
-    background-size: cover !important;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    color: var(--black);
-} */
+    
 .loginForm {
     width: 368px;
     align-self: center !important;
