@@ -6,6 +6,14 @@
     --pink: #dc3545;
 }
 
+.navbar{
+    background-color: #252525;
+}
+
+.showcase{
+   background-color: #252525;
+}
+
 .seperator{
     background-color: #D72323;
     width: 40px;
@@ -19,6 +27,9 @@
 body {
     font-family: var(--sm-font);
 }
+.nav-link{
+    color: rgb(197, 197, 197);
+}
 
 .nav-link:hover {
     color:#D72323 !important;
@@ -26,6 +37,10 @@ body {
 }
 .nav-item{
     padding-left: 30px;
+}
+
+.image-icon{
+    height: 65px;
 }
 
 .btn:not(.nav-btns button):hover{
@@ -37,9 +52,7 @@ a:link {
     text-decoration: none;
   }
 
-.image-icon{
-    height: 70px;
-}
+
 .img-banner {
     height: 700px;
     width: 800px;
@@ -74,7 +87,7 @@ a:link {
 
    /* banner */
 
-   .carousel-item img{
+   /* .carousel-item img{
     height: 550px;
     width: 300px;
-   }
+   } */
