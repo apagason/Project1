@@ -1,0 +1,92 @@
+* {
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+@media(min-width: 1366px) {
+    .login{
+        border-bottom: none;
+    }
+
+/* .login {
+    background: var(--background-mobile);
+    background-size: cover !important;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    color: var(--black);
+} */
+.loginForm {
+    width: 368px;
+    align-self: center !important;
+    background-color: black;
+    padding: 24px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 10px 10px rgba(16, 16, 17, 0.582);
+    -webkit-box-shadow: 0 10px 10px rgba(8, 9, 10, 0.868);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.809);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+
+}
+#banner{
+    background: url(../img/bg-sign.jpg) top/cover;
+}
+
+.login-form-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.auth-card{
+    background-color: rgb(255, 255, 255, 0.1);
+    box-shadow: 0 3px 16px rgb(0 0 0 / 0.4);
+    padding: 10px 10%;
+    color: white;
+}
+.service-btn{
+    background-color:rgb(0, 0, 0, 0.2);
+    width: 100%;
+    color: white;
+    height: 45px;
+    box-shadow: none !important;
+}
+.btn-theme{
+    background-color: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.auth-input{
+    background: rgb(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    box-shadow: none !important;
+}
+.auth-input:focus {
+    background: rgb(0, 0, 0, 0.3);
+    color: white;
+    
+}
+.service-btn:hover{
+    color: rgba(17, 5, 5, 0.9);
+}
+
+.pad{
+    padding-left: 15%;
+}

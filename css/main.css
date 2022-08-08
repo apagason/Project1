@@ -19,9 +19,13 @@ body {
     color: rgb(250, 250, 250);
 }
 
+
 .nav-link:hover {
     color:#D72323 !important;
 
+}
+#sign-color{
+    color: white !important;
 }
 .nav-item{
     padding-left: 30px;
@@ -37,7 +41,7 @@ body {
 }
 
 .btn:not(.nav-btns button):hover{
-    background: #873232;
+    background: #b62626;
     color: rgb(255, 255, 255);
     border: #D72323;
 }
@@ -87,4 +91,9 @@ a:link {
    .portfolio-item img,
    .portfolio-item .portfolio-overlay {
     transition: all 0.4s ease;
+   }
+
+   /* Footer */
+   .footer{
+    background-color: #414141;
    }
