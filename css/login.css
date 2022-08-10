@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+}
+
+
 * {
     box-sizing: inherit;
     box-sizing: border-box;
 }
+a:link {
+    text-decoration: none;
+  }
 
 @media(min-width: 1366px) {
     .login{
@@ -82,3 +93,13 @@
 .pad{
     padding-left: 15%;
 }
+
+/* Footer */
+.footer{
+    background-color: #414141;
+   }
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+
