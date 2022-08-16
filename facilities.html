@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Silver Fitness</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-2 fixed-top">
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center justify-content-between order-lg-0"
+        >
+          <img class="image-icon" src="img/Frame 1.png" alt="site Icon" />
+          <span id="brand-name" class="fw-900 text-white">SILVER FITNESS</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navmenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="story.html" class="nav-link">STORY</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="facilities.html" class="nav-link">FACILITIES</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="login.html"
+                id="sign-color"
+                class="nav-link btn btn-danger"
+              >
+                <i class="bi bi-person"></i>LOG IN</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section id="bann" class="vh-100">
+      <div
+        class="container d-flex h-100 align-items-center justify-content-center"
+      >
+        <div class="text-center text-white">
+          <h1>GYM AMENITIES</h1>
+          <div class="seperator"></div>
+          <h3 class="fw-light">
+            Our amenities help you get the most out of your workout and gym
+            experience.
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ameneties -->
+    <section class="pt-3">
+      <div class="container-fluid">
+        <div
+          class="container row m-0 pb-5 d-flex align-items-center justify-content-center"
+        >
+          <div class="d-flex justify-content-center text-muted">
+            <span>Club</span>
+          </div>
+          <div class="d-flex justify-content-center">
+            <select
+              class="box form-select form-select-sm w-50"
+              aria-label=".form-select-sm example"
+            >
+              <option class="text-muted" selected>Select a club</option>
+              <option value="1">Angeles</option>
+              <option value="2">Mabalacat</option>
+              <option value="3">San Fernando</option>
+            </select>
+          </div>
+          <!-- cards -->
+          <section class="py-5">
+            <div class="container">
+              <div class="title text-center py-3">
+                <h2 class="position-relative d-inline-block text-dark pt-5">
+                  FEATURED AMENITIES
+                </h2>
+                <div class="seperator"></div>
+              </div>
+
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-4 card border-0 my-3">
+                  <img src="img/gym2.jpg" alt="Gym" />
+                  <div class="card-body px-0">
+                    <h5 class="card-title text-danger">Moving well</h5>
+                    <p class="card-text mt-3 text-muted fst-italic">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nisi odit, corporis officiis totam neque hic reprehenderit
+                      suscipit quia itaque repellendus in, consectetur, quisquam
+                      quos assumenda ut obcaecati quidem quaerat repudiandae.
+                    </p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-md-6 col-lg-4 card border-0 my-3">
+                  <img src="img/crossfit.jpg" alt="Crossfit" />
+                  <div class="card-body px-0">
+                    <h5 class="card-title text-danger">Equipments</h5>
+                    <p class="card-text mt-3 text-muted fst-italic">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nisi odit, corporis officiis totam neque hic reprehenderit
+                      suscipit quia itaque repellendus in, consectetur, quisquam
+                      quos assumenda ut obcaecati quidem quaerat repudiandae.
+                    </p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                  </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-md-6 col-lg-4 card border-0 my-3">
+                  <img src="img/pool.jpg" alt="Swimmming pool" />
+                  <div class="card-body px-0">
+                    <h5 class="card-title text-danger">Hardwork</h5>
+                    <p class="card-text mt-3 text-muted fst-italic">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nisi odit, corporis officiis totam neque hic reprehenderit
+                      suscipit quia itaque repellendus in, consectetur, quisquam
+                      quos assumenda ut obcaecati quidem quaerat repudiandae.
+                    </p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
