@@ -39,10 +39,8 @@ a:link {
 }
 
 
-
-
 }
-#banner{
+#loginpg{
     background: url(../img/bg-sign.jpg) top/cover;
 }
 
@@ -102,4 +100,9 @@ footer .brand{
     font-family: var(--lg-font);
     letter-spacing: 2px;
 }
+
+shadow {
+    box-shadow: 12px 12px 25px white;
+}
+
 

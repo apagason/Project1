@@ -1,219 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap Icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-    <title>Silver Fitness</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg py-2 fixed-top">
-      <div class="container">
-        <a
-          href="index.html"
-          class="navbar-brand d-flex align-items-center justify-content-between order-lg-0"
-        >
-          <img class="image-icon" src="img/Frame 1.png" alt="site Icon" />
-          <span id="brand-name" class="fw-900 text-white">SILVER FITNESS</span>
-        </a>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css" />
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <title>Silver Fitness</title>
+</head>
 
-        <div id="navmenu" class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="story.html" class="nav-link">STORY</a>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg py-2 fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-flex align-items-center justify-content-between order-lg-0">
+        <img class="image-icon" src="img/Frame 1.png" alt="site Icon" />
+        <span id="brand-name" class="fw-900 text-white">SILVER FITNESS</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navmenu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="story.html" class="nav-link">STORY</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="facilities.html" class="nav-link">AMENITIES</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" id="sign-color" class="nav-link btn btn-danger">
+              <i class="bi bi-person"></i>LOG IN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+
+  <section id="bann" class="vh-100">
+    <div class="container d-flex h-100 align-items-center justify-content-center">
+      <div class="text-center text-white">
+        <h1>GYM AMENITIES</h1>
+        <div class="seperator"></div>
+        <h3 class="fw-light">
+          Our amenities help you get the most out of your workout and gym
+          experience.
+        </h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ameneties -->
+
+  <section class="px-0 pt-3">
+    <div class="container-fluid">
+      <div class="container align-items-center justify-content-center">
+        <div class="d-flex justify-content-center text-muted">
+          <span>Club</span>
+        </div>
+        <div class="d-flex justify-content-center">
+          <select class="box form-select form-select-sm w-50" aria-label=".form-select-sm example">
+            <option class="text-muted" selected>Select a club</option>
+            <option value="1">Angeles</option>
+            <option value="2">Mabalacat</option>
+            <option value="3">San Fernando</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <section class="py-5">
+    <div class="container">
+      <div class="title text-center py-3">
+        <h2 class="position-relative d-inline-block text-dark pt-5">
+          FEATURED AMENITIES
+        </h2>
+        <div class="seperator"></div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6 col-lg-4 card border-0 my-3">
+          <img src="img/gym2.jpg" alt="Gym" />
+          <div class="card-body px-0">
+            <h5 class="card-title text-danger">Gym</h5>
+            <p class="card-text mt-3 text-muted fst-italic">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#" class="btn btn-danger">See More</a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="col-md-6 col-lg-4 card border-0 my-3">
+          <img src="img/crossfit.jpg" alt="Crossfit" />
+          <div class="card-body px-0">
+            <h5 class="card-title text-danger">Crossfit</h5>
+            <p class="card-text mt-3 text-muted fst-italic">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#" class="btn btn-danger">See More</a>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-md-6 col-lg-4 card border-0 my-3">
+          <img src="img//yoga.jpg" alt="yoga" />
+          <div class="card-body px-0">
+            <h5 class="card-title text-danger">Yoga</h5>
+            <p class="card-text mt-3 text-muted fst-italic">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#" class="btn btn-danger">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- icons -->
+  <section>
+    <div class="component">
+      <div class="title text-center mx-auto">
+        <h3>STANDARD AMENITIES</h3>
+        <div class="seperator"></div>
+        <div class="pt-2 p-sm-2">
+          <p>Check out the standard amenities in Fitness First. *The availability of certain facilities may vary
+            depending on the club selected.</p>
+        </div>
+        <div class="row m-5 px-5">
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="img/aerial-yoga.svg" alt="aerial-yoga icon">
+              <div class="description"><span class="icon-text">Aerial Yoga</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/app-audio_blk.svg" alt="app audio icon">
+              <div class="description"><span class="icon-text">App Audio</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/boxing-area_blk.svg" alt="boxing icon">
+              <div class="description"><span class="icon-text">Boxing Area</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/cardio-theater_blk.svg" alt="cardio icon">
+              <div class="description"><span class="icon-text">Cardio Entertainment</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/changing-room_blk.svg">
+              <div class="description"><span class="icon-text">Changing Room</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/charging-station_blk.svg" alt="charging icon">
+              <div class="description"><span class="icon-text">Charging Station</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/complimentary-toiletries_blk.svg" alt="complimentary toiletries icon">
+              <div class="description"><span class="icon-text">complimentary toiletries</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/disabled-access_blk.svg" alt="Disabled Access icon">
+              <div class="description"><span class="icon-text">Disabled Access</span></div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/free-weights_blk.svg" alt="weights icon">
+              <div class="description"><span class="icon-text">Free Weights</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/group-exercise_blk.svg" alt="group exercise icon">
+              <div class="description"><span class="icon-text">Group Exercise</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/loaded-weight_blk.svg" alt="loaded weights icon">
+              <div class="description"><span class="icon-text">Loaded Weights</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/lockers_blk.svg" alt="locker icon">
+              <div class="description"><span class="icon-text">Locker</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/lounge-area_blk.svg" alt="lounge area icon">
+              <div class="description"><span class="icon-text">Lounge Area</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/refreshment_blk.svg" alt="refreshments icon">
+              <div class="description"><span class="icon-text">Refereshments</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/shoe-lockers_blk.svg" alt="shoe locker icon">
+              <div class="description"><span class="icon-text">Shoe Locker</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/wifi_blk.svg" alt="wifi icon">
+              <div class="description"><span class="icon-text">Wi-Fi</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/private-pt-zone_blk.svg" alt="Private pt zone icon">
+              <div class="description"><span class="icon-text">Private PT Zone</span></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2 pt-2">
+            <div class="square-icon pt-3">
+              <img class="img-icon" src="https://www.fitnessfirst.com.ph/-/media/project/evolution-wellness/fitness-first/south-east-asia/philippines/icons/black/yoga_blk.svg" alt="yoga icon">
+              <div class="description"><span class="icon-text">Yoga</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row text-muted g-4">
+        <div class="col-md-6 col-lg-3">
+          <h5 class="lead">Membership</h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="#" class="text-muted lead">
+                <i class="bi bi-chevron-right me-1"></i>Join Us Online</a>
             </li>
-
-            <li class="nav-item">
-              <a href="facilities.html" class="nav-link">FACILITIES</a>
+            <li class="my-3">
+              <a href="#" class="text-muted lead">
+                <i class="bi bi-chevron-right me-1"></i>Individual</a>
             </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">CONTACT US</a>
+            <li class="my-3">
+              <a href="#" class="text-muted lead">
+                <i class="bi bi-chevron-right me-1"></i>Corporate</a>
             </li>
-            <li class="nav-item">
-              <a
-                href="login.html"
-                id="sign-color"
-                class="nav-link btn btn-danger"
-              >
-                <i class="bi bi-person"></i>LOG IN</a
-              >
+            <li class="my-3">
+              <a href="#" class="text-muted lead">
+                <i class="bi bi-chevron-right me-1"></i>Personal</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h5 id="contact" class="mb-3 lead">Contact Us</h5>
+          <div class="d-flex justify-content-start align-items-start my-2">
+            <span class="me-3"><i class="bi bi-envelope"></i></span>
+            <span class="fw-light">silverfitness@gmail.com</span>
+          </div>
+          <div class="d-flex jutify-content-start align-items-start my-2">
+            <span class="me-3"><i class="bi bi-geo-alt"></i></span>
+            <span class="fw-light">Lakandula, Angeles City, Philippines</span>
+          </div>
+          <div class="d-flex justify-content-start align-items-start my-2">
+            <span class="me-3"><i class="bi bi-phone"></i></span>
+            <span>09654789632</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h5 class="mb-3 lead">Follow Us</h5>
+          <ul class="list-unstyled d-flex">
+            <li class="fs-4 me-4">
+              <i class="bi bi-facebook"></i>
+            </li>
+            <li class="fs-4 me-4">
+              <i class="bi bi-twitter"></i>
+            </li>
+            <li class="fs-4 me-4">
+              <i class="bi bi-instagram"></i>
+            </li>
+            <li class="fs-4 me-4">
+              <i class="bi bi-pinterest"></i>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
+  </footer>
 
-    <!-- banner -->
-    <section id="bann" class="vh-100">
-      <div
-        class="container d-flex h-100 align-items-center justify-content-center"
-      >
-        <div class="text-center text-white">
-          <h1>GYM AMENITIES</h1>
-          <div class="seperator"></div>
-          <h3 class="fw-light">
-            Our amenities help you get the most out of your workout and gym
-            experience.
-          </h3>
-        </div>
-      </div>
-    </section>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
 
-    <!-- Ameneties -->
-    <section class="px-0 pt-3">
-      <div class="container-fluid">
-        <div class="container align-items-center justify-content-center">
-          <div class="d-flex justify-content-center text-muted">
-            <span>Club</span>
-          </div>
-          <div class="d-flex justify-content-center">
-            <select
-              class="box form-select form-select-sm w-50"
-              aria-label=".form-select-sm example"
-            >
-              <option class="text-muted" selected>Select a club</option>
-              <option value="1">Angeles</option>
-              <option value="2">Mabalacat</option>
-              <option value="3">San Fernando</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- cards -->
-    <section class="py-5">
-      <div class="container">
-        <div class="title text-center py-3">
-          <h2 class="position-relative d-inline-block text-dark pt-5">
-            FEATURED AMENITIES
-          </h2>
-          <div class="seperator"></div>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-6 col-lg-4 card border-0 my-3">
-            <img src="img/gym2.jpg" alt="Gym" />
-            <div class="card-body px-0">
-              <h5 class="card-title text-danger">Gym</h5>
-              <p class="card-text mt-3 text-muted fst-italic">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <a href="#" class="btn btn-danger">See More</a>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="col-md-6 col-lg-4 card border-0 my-3">
-            <img src="img/crossfit.jpg" alt="Crossfit" />
-            <div class="card-body px-0">
-              <h5 class="card-title text-danger">Crossfit</h5>
-              <p class="card-text mt-3 text-muted fst-italic">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <a href="#" class="btn btn-danger">See More</a>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="col-md-6 col-lg-4 card border-0 my-3">
-            <img src="img//yoga.jpg" alt="yoga" />
-            <div class="card-body px-0">
-              <h5 class="card-title text-danger">Yoga</h5>
-              <p class="card-text mt-3 text-muted fst-italic">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <a href="#" class="btn btn-danger">See More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-
-    <footer class="footer py-5">
-      <div class="container">
-        <div class="row text-white g-4">
-          <div class="col-md-6 col-lg-3">
-            <h5>Membership</h5>
-            <ul class="list-unstyled">
-              <li class="my-3">
-                <a href="#" class="text-white">
-                  <i class="bi bi-chevron-right me-1"></i>Join Us Online</a
-                >
-              </li>
-              <li class="my-3">
-                <a href="#" class="text-white">
-                  <i class="bi bi-chevron-right me-1"></i>Individual</a
-                >
-              </li>
-              <li class="my-3">
-                <a href="#" class="text-white">
-                  <i class="bi bi-chevron-right me-1"></i>Corporate</a
-                >
-              </li>
-              <li class="my-3">
-                <a href="#" class="text-white">
-                  <i class="bi bi-chevron-right me-1"></i>Personal</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <h5 id="contact" class="mb-3">Contact Us</h5>
-            <div class="d-flex justify-content-start align-items-start my-2">
-              <span class="me-3"><i class="bi bi-envelope"></i></span>
-              <span class="fw-light">silverfitness@gmail.com</span>
-            </div>
-            <div class="d-flex jutify-content-start align-items-start my-2">
-              <span class="me-3"><i class="bi bi-geo-alt"></i></span>
-              <span class="fw-light">Lakandula, Angeles City, Philippines</span>
-            </div>
-            <div class="d-flex justify-content-start align-items-start my-2">
-              <span class="me-3"><i class="bi bi-phone"></i></span>
-              <span>09654789632</span>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <h5 class="mb-3">Follow Us</h5>
-            <ul class="list-unstyled d-flex">
-              <li class="fs-4 me-4">
-                <i class="bi bi-facebook"></i>
-              </li>
-              <li class="fs-4 me-4">
-                <i class="bi bi-twitter"></i>
-              </li>
-              <li class="fs-4 me-4">
-                <i class="bi bi-instagram"></i>
-              </li>
-              <li class="fs-4 me-4">
-                <i class="bi bi-pinterest"></i>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

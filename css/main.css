@@ -129,3 +129,22 @@ a:link {
     border: #f5f5f5;
    border-bottom: 0.5px solid #D72323;
 }
+
+/* Standard Ameneties */
+
+.square-icon {
+    height: 100px;
+    width: 135px;
+    background-color: #f5f5f5;
+}
+
+.img-icon {
+    height: 45px;
+    width: 76px;
+}
+
+.square-icon .icon-text {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 11px;
+}
